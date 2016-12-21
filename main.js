@@ -9,7 +9,7 @@
     if (parrot == 1)
         isParrot = true;
     
-    if(hora >= 0 && hora <=23 && !isParrot){        document.getElementById("salida").innerHTML=" No estamos en problemas"; ;
+    if(hora >= 0 && hora <=23 && !isParrot){        document.getElementById("salida").innerHTML=" No estamos en problemas"; 
     }else{
         if(hora < 7 && isParrot || hora > 20 && isParrot){
             document.getElementById("salida").innerHTML="Estamos en problemas";
