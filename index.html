@@ -1,0 +1,41 @@
+<!DOCTOYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Parrot Trouble</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="shortcut icon" href="buho.ico">
+</head>
+<body>
+   <div class="container">
+       <div class="row">
+            <h1 class="text-center">Parrot Trouble</h1>
+            <p class="text-center">Cuando nos encontramos en problemas?</p>
+       </div>
+       <hr>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+              <label for="parrot">El loro esta hablando? </label>
+               <select  id="parrot" class="form-control" placeholder="elegir opcion">
+                  <option value="1">Si</option>
+                  <option value="2">No</option>
+                </select>
+           </div>
+        </div>
+        <div class="row">      
+            <div class="col-md-8 col-md-offset-2">
+                <label for="hora">Que hora es?</label>
+               <input id="hora" class="form-control" type="text" placeholder="Colocar la hora">   
+            </div>
+        </div>
+        <br>
+        <div class="col-md-8 col-md-offset-2 text-center">
+        <button onclick="evaluar()" class="btn btn-danger" class="text-center">EVALUAR</button>
+        <br>
+        <br>
+        <div id="salida" style="font-size:20px; color:red"; class="text-center";>-</div>
+       </div> 
+    </div>   
+</body>
+ <script src="main.js"></script>
+</html>
