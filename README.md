@@ -4,7 +4,7 @@ Inicio: Evaluar cuando nos encontramos en problemas si el loro habla .
 
 ##Ingreso de Datos
 - hora (rango de 0 a 23)
-- talking
+- parrot
 - evaluar
 
 ##Proceso
